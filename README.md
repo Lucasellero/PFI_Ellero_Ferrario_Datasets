@@ -8,10 +8,26 @@ aprendizaje de la rutina diaria (línea base de comportamiento).
 - **Código fuente del sistema:** <https://github.com/Lucasellero/PFI_Ellero_Ferrario_Backend>
   (repositorio privado; acceso por invitación).
 - **Este repositorio** contiene las **anotaciones y datos tabulares** que usamos o
-  generamos, en el mismo formato en que los consume el sistema. Los **videos originales no se redistribuyen** acá por dos motivos: su
-  tamaño (más de 45 GB comprimidos en total) y la licencia de algunos de ellos. Cada
-  dataset se descarga de su fuente oficial, que se indica abajo junto con su licencia y
-  su cita.
+  generamos, en el mismo formato en que los consume el sistema.
+- **Los videos** están en la sección
+  [**Releases**](https://github.com/Lucasellero/PFI_Ellero_Ferrario_Datasets/releases/tag/v1.0)
+  de este repositorio (ver "Descarga de los videos").
+
+## Descarga de los videos
+
+| Archivo | Contenido | Tamaño | Dónde |
+|---|---|---|---|
+| `GMDCSA-24.zip` | 229 videos (subset `fall1`–`fall4` + dataset oficial completo) + anotaciones | 1,46 GB | [Release v1.0](https://github.com/Lucasellero/PFI_Ellero_Ferrario_Datasets/releases/tag/v1.0) |
+| `CAUCAFall.zip` | 100 videos `.avi` + etiquetas por frame (formato YOLO) + `Fall.csv` | 0,14 GB | [Release v1.0](https://github.com/Lucasellero/PFI_Ellero_Ferrario_Datasets/releases/tag/v1.0) |
+| `URFD.zip` | 70 videos (`cam0`) + metadata oficial + `Fall.csv` | 0,10 GB | [Release v1.0](https://github.com/Lucasellero/PFI_Ellero_Ferrario_Datasets/releases/tag/v1.0) |
+| `ToyotaSmarthome_actividades.zip` | 3.124 clips de actividades cotidianas (31 clases) | 2,36 GB | Enlace privado, enviado por correo |
+| `ToyotaSmarthome_evaluacion_caidas.zip` | 39 clips cortos + 4 videos largos sin recortar | 0,35 GB | Enlace privado, enviado por correo |
+
+Toyota Smarthome se comparte por un enlace privado porque su licencia no permite la
+redistribución pública; para otros usos, el acceso se solicita en
+<https://project.inria.fr/toyotasmarthome/>. CAUCAFall se distribuye sin los frames
+extraídos en PNG que trae el original (7,6 GB), que son los mismos frames del video.
+El Multiple Cameras Fall Dataset no se incluye porque no se usó en la evaluación final.
 
 ## Resumen
 
@@ -21,7 +37,7 @@ aprendizaje de la rutina diaria (línea base de comportamiento).
 | 2 | **GMDCSA-24** | Video RGB | 81 caídas + 79 actividades cotidianas (ADL), 4 actores | Calibración y evaluación de la detección de caídas | CC BY 4.0 |
 | 3 | **CAUCAFall** | Video RGB | 100 clips (10 sujetos × 10 acciones: 5 caídas, 5 no-caídas) | Evaluación de caídas en entorno no controlado | CC BY 4.0 |
 | 4 | **UR Fall Detection (URFD)** | Video RGB (cam0) | 70 clips (30 caídas + 40 ADL "casi caída") | Negativos difíciles: sentarse, agacharse, acostarse | CC BY-NC-SA 4.0 |
-| 5 | **Toyota Smarthome** (Inria / Toyota Motor Europe) | Video RGB + esqueleto | ~2.200 clips de actividades + 4 videos largos sin recortar (~1,4 h) | Entrenamiento de actividades (CLIP + esqueleto GRU); control de falsos positivos de caída en video doméstico continuo | Uso académico, con solicitud de acceso; **no redistribuible** |
+| 5 | **Toyota Smarthome** (Inria / Toyota Motor Europe) | Video RGB + esqueleto | 3.124 clips de actividades + 4 videos largos sin recortar (~1,4 h) | Entrenamiento de actividades (CLIP + esqueleto GRU); control de falsos positivos de caída en video doméstico continuo | Uso académico, con solicitud de acceso; **no redistribuible** |
 | 6 | **Multiple Cameras Fall Dataset** (Auvinet et al., U. de Montréal) | Video RGB, 8 cámaras | 24 escenas | Explorado; quedó **fuera de la evaluación final** (inconsistencias de FPS y frames corruptos) | Uso académico |
 
 ## Estructura del repositorio
@@ -95,7 +111,7 @@ residente (por ejemplo, ingreso de personal). El detalle está en `_quality_repo
 **4. UR Fall Detection Dataset**: Universidad de Rzeszów. <https://fenix.ur.edu.pl/~mkepski/ds/uf.html> · CC BY-NC-SA 4.0 (uso académico).
 > Kwolek, B., & Kepski, M. (2014). Human Fall Detection on Embedded Platform Using Depth Maps and Wireless Accelerometer. *Computer Methods and Programs in Biomedicine*, 117(3), 489–501. https://doi.org/10.1016/j.cmpb.2014.09.005
 
-**5. Toyota Smarthome**: Inria / Toyota Motor Europe. <https://project.inria.fr/toyotasmarthome/> · Acceso por solicitud, uso académico, no redistribuible. Este repositorio solo incluye nuestras anotaciones sobre los nombres de archivo, no los videos.
+**5. Toyota Smarthome**: Inria / Toyota Motor Europe. <https://project.inria.fr/toyotasmarthome/> · Acceso por solicitud, uso académico, no redistribuible públicamente. Los videos que usamos se comparten solo por enlace privado, para la evaluación del proyecto.
 > Das, S., Dai, R., Koperski, M., Minciullo, L., Garattoni, L., Bremond, F., & Francesca, G. (2019). Toyota Smarthome: Real-World Activities of Daily Living. *ICCV 2019*. https://doi.org/10.1109/ICCV.2019.00092
 
 **6. Multiple Cameras Fall Dataset**: Université de Montréal (también disponible como espejo en Kaggle).
