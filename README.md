@@ -9,19 +9,20 @@ aprendizaje de la rutina diaria (línea base de comportamiento).
   (repositorio privado; acceso por invitación).
 - **Este repositorio** contiene las **anotaciones y datos tabulares** que usamos o
   generamos, en el mismo formato en que los consume el sistema.
-- **Los videos** están en la sección
-  [**Releases**](https://github.com/Lucasellero/PFI_Ellero_Ferrario_Datasets/releases/tag/v1.0)
-  de este repositorio (ver "Descarga de los videos").
+- **Los videos** están dentro de la carpeta de cada dataset en `caidas/`, junto con sus
+  anotaciones (ver "Videos").
 
-## Descarga de los videos
+## Videos
 
-| Archivo | Contenido | Tamaño | Dónde |
+| Dataset | Contenido | Tamaño | Dónde |
 |---|---|---|---|
-| `GMDCSA-24.zip` | 229 videos (subset `fall1`–`fall4` + dataset oficial completo) + anotaciones | 1,46 GB | [Release v1.0](https://github.com/Lucasellero/PFI_Ellero_Ferrario_Datasets/releases/tag/v1.0) |
-| `CAUCAFall.zip` | 100 videos `.avi` + etiquetas por frame (formato YOLO) + `Fall.csv` | 0,14 GB | [Release v1.0](https://github.com/Lucasellero/PFI_Ellero_Ferrario_Datasets/releases/tag/v1.0) |
-| `URFD.zip` | 70 videos (`cam0`) + metadata oficial + `Fall.csv` | 0,10 GB | [Release v1.0](https://github.com/Lucasellero/PFI_Ellero_Ferrario_Datasets/releases/tag/v1.0) |
-| `ToyotaSmarthome_actividades.zip` | 3.124 clips de actividades cotidianas (31 clases) | 2,36 GB | Enlace privado, enviado por correo |
-| `ToyotaSmarthome_evaluacion_caidas.zip` | 39 clips cortos + 4 videos largos sin recortar | 0,35 GB | Enlace privado, enviado por correo |
+| GMDCSA-24 | 229 videos (subset `fall1`–`fall4` + dataset oficial completo) + anotaciones | 1,36 GB | [`caidas/GMDCSA-24/`](caidas/GMDCSA-24) |
+| CAUCAFall | 100 videos `.avi` + `Fall.csv` + etiquetas por frame (formato YOLO, en `etiquetas_por_frame.zip`) | 0,13 GB | [`caidas/CAUCAFall/`](caidas/CAUCAFall) |
+| URFD | 70 videos (`cam0`) + metadata oficial + `Fall.csv` | 0,09 GB | [`caidas/URFD/`](caidas/URFD) |
+| Toyota Smarthome (actividades) | 3.124 clips de actividades cotidianas (31 clases) | 2,36 GB | Enlace privado, enviado por correo |
+| Toyota Smarthome (evaluación de caídas) | 39 clips cortos + 4 videos largos sin recortar | 0,35 GB | Enlace privado, enviado por correo |
+
+Para bajar todo junto: botón **Code → Download ZIP** de este repositorio.
 
 Toyota Smarthome se comparte por un enlace privado porque su licencia no permite la
 redistribución pública; para otros usos, el acceso se solicita en
