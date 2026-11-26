@@ -5,9 +5,11 @@ El proyecto es un sistema que monitorea a un adulto mayor en su casa con una sol
 cámara: detecta caídas, reconoce actividades y periodos de inmovilidad, y aprende su
 rutina diaria para avisar cuando algo cambia.
 
-El código del sistema está en
-[PFI_Ellero_Ferrario_Backend](https://github.com/Lucasellero/PFI_Ellero_Ferrario_Backend)
-(es privado, pedinos acceso).
+El resto del proyecto:
+
+- Backend (detección, línea base y API): [PFI_Ellero_Ferrario_Backend](https://github.com/Lucasellero/PFI_Ellero_Ferrario_Backend)
+- App móvil: [PFI_Ellero_Ferrario_Frontend](https://github.com/Lucasellero/PFI_Ellero_Ferrario_Frontend)
+- Informe (LaTeX): [PFI_Ellero_Ferrario](https://github.com/Lucasellero/PFI_Ellero_Ferrario)
 
 ## Qué usamos
 
