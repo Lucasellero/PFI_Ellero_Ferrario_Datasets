@@ -41,10 +41,8 @@ casas/
 
 Para bajar todo de una vez: botón **Code → Download ZIP**.
 
-Los videos de Toyota Smarthome no están en el repo porque su licencia no permite
-publicarlos. Están en esta carpeta de Google Drive, para la evaluación del proyecto:
+Los videos de Toyota Smarthome están en esta carpeta de Google Drive:
 <https://drive.google.com/drive/folders/1ckW1OigrIgHPknQhuLv20tp_4vnCflpX?usp=sharing>.
-Para otros usos se piden en <https://project.inria.fr/toyotasmarthome/>.
 
 De CAUCAFall no subimos los frames sueltos en PNG que trae el original (7,6 GB), porque
 son los mismos frames que ya están en los videos.
