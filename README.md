@@ -39,8 +39,6 @@ casas/
   _quality_report.md            reporte de calidad de los datos
 ```
 
-Para bajar todo de una vez: botón **Code → Download ZIP**.
-
 Los videos de Toyota Smarthome están en esta carpeta de Google Drive:
 <https://drive.google.com/drive/folders/1ckW1OigrIgHPknQhuLv20tp_4vnCflpX?usp=sharing>.
 
