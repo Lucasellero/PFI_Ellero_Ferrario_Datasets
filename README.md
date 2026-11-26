@@ -88,26 +88,26 @@ sistema no la usa.
 Los videos que grabamos en la prueba en el hogar muestran a personas reales, así que no
 los publicamos (Ley 25.326 de Protección de Datos Personales).
 
-## Fuentes y citas
+## Fuentes, licencias y citas
 
-**CASAS Smart Home.** Washington State University. <http://casas.wsu.edu/datasets/> ·
-DOI [10.5281/zenodo.15708568](https://doi.org/10.5281/zenodo.15708568)
-Cook, D. J., Crandall, A. S., Thomas, B. L., & Krishnan, N. C. (2013). CASAS: A Smart Home in a Box. *Computer*, 46(7), 62–69. https://doi.org/10.1109/MC.2012.328
+**1. CASAS Smart Home Datasets**: Washington State University.
+<http://casas.wsu.edu/datasets/> · Zenodo DOI [10.5281/zenodo.15708568](https://doi.org/10.5281/zenodo.15708568) · CC BY 4.0.
+> Cook, D. J., Crandall, A. S., Thomas, B. L., & Krishnan, N. C. (2013). CASAS: A Smart Home in a Box. *Computer*, 46(7), 62–69. https://doi.org/10.1109/MC.2012.328
 
-**GMDCSA-24.** <https://zenodo.org/records/11216408>
-Alam, E., Sufian, A., Dutta, P., Leo, M., & Hameed, I. A. (2024). GMDCSA-24: A Dataset for Human Fall Detection in Videos. *Data in Brief*, 57, 110892. https://doi.org/10.1016/j.dib.2024.110892
+**2. GMDCSA-24**: Zenodo DOI [10.5281/zenodo.11216408](https://zenodo.org/records/11216408) · CC BY 4.0.
+> Alam, E., Sufian, A., Dutta, P., Leo, M., & Hameed, I. A. (2024). GMDCSA-24: A Dataset for Human Fall Detection in Videos. *Data in Brief*, 57, 110892. https://doi.org/10.1016/j.dib.2024.110892
 
-**CAUCAFall.**
-Eraso Guerrero, J. C., Muñoz España, E., Muñoz Añasco, M., & Pinto Lopera, J. E. (2022). Dataset for Human Fall Recognition in an Uncontrolled Environment. *Data in Brief*, 45, 108610. https://doi.org/10.1016/j.dib.2022.108610
+**3. CAUCAFall**: CC BY 4.0 (descarga indicada en el artículo).
+> Eraso Guerrero, J. C., Muñoz España, E., Muñoz Añasco, M., & Pinto Lopera, J. E. (2022). Dataset for Human Fall Recognition in an Uncontrolled Environment. *Data in Brief*, 45, 108610. https://doi.org/10.1016/j.dib.2022.108610
 
-**UR Fall Detection Dataset.** Universidad de Rzeszów. <https://fenix.ur.edu.pl/~mkepski/ds/uf.html>
-Kwolek, B., & Kepski, M. (2014). Human Fall Detection on Embedded Platform Using Depth Maps and Wireless Accelerometer. *Computer Methods and Programs in Biomedicine*, 117(3), 489–501. https://doi.org/10.1016/j.cmpb.2014.09.005
+**4. UR Fall Detection Dataset**: Universidad de Rzeszów. <https://fenix.ur.edu.pl/~mkepski/ds/uf.html> · CC BY-NC-SA 4.0 (uso académico).
+> Kwolek, B., & Kepski, M. (2014). Human Fall Detection on Embedded Platform Using Depth Maps and Wireless Accelerometer. *Computer Methods and Programs in Biomedicine*, 117(3), 489–501. https://doi.org/10.1016/j.cmpb.2014.09.005
 
-**Toyota Smarthome.** Inria y Toyota Motor Europe. <https://project.inria.fr/toyotasmarthome/>
-Das, S., Dai, R., Koperski, M., Minciullo, L., Garattoni, L., Bremond, F., & Francesca, G. (2019). Toyota Smarthome: Real-World Activities of Daily Living. *ICCV 2019*. https://doi.org/10.1109/ICCV.2019.00092
+**5. Toyota Smarthome**: Inria / Toyota Motor Europe. <https://project.inria.fr/toyotasmarthome/> · Uso académico, no redistribuible públicamente.
+> Das, S., Dai, R., Koperski, M., Minciullo, L., Garattoni, L., Bremond, F., & Francesca, G. (2019). Toyota Smarthome: Real-World Activities of Daily Living. *ICCV 2019*. https://doi.org/10.1109/ICCV.2019.00092
 
-**Multiple Cameras Fall Dataset.** Université de Montréal.
-Auvinet, E., Multon, F., Saint-Arnaud, A., Rousseau, J., & Meunier, J. (2011). Fall Detection With Multiple Cameras: An Occlusion-Resistant Method Based on 3-D Silhouette Vertical Distribution. *IEEE Transactions on Information Technology in Biomedicine*, 15(2), 290–300. https://doi.org/10.1109/TITB.2010.2087385
+**6. Multiple Cameras Fall Dataset**: Université de Montréal (también disponible como espejo en Kaggle).
+> Auvinet, E., Multon, F., Saint-Arnaud, A., Rousseau, J., & Meunier, J. (2011). Fall Detection With Multiple Cameras: An Occlusion-Resistant Method Based on 3-D Silhouette Vertical Distribution. *IEEE Transactions on Information Technology in Biomedicine*, 15(2), 290–300. https://doi.org/10.1109/TITB.2010.2087385
 
 ---
 
