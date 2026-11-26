@@ -39,7 +39,9 @@ casas/
   _quality_report.md            reporte de calidad de los datos
 ```
 
-Los videos de Toyota Smarthome están en esta carpeta de Google Drive:
+Los videos de Toyota Smarthome no están en el repositorio porque la licencia de Inria y
+Toyota permite usarlos para investigación, pero no publicarlos abiertamente. Por eso los
+compartimos aparte, en esta carpeta de Google Drive:
 <https://drive.google.com/drive/folders/1ckW1OigrIgHPknQhuLv20tp_4vnCflpX?usp=sharing>.
 
 De CAUCAFall no subimos los frames sueltos en PNG que trae el original (7,6 GB), porque
